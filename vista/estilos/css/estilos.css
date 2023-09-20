@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'fuente', sans-serif;
+}
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'fuente';
+    src: url(/vista/fuentes/Prototype.ttf) format(truetype);
+}
+
+#textoDescuento{
+    font-size: 17px;
+}
+
+
+#cuponEntrada{
+    position: absolute;
+    left: 150px;
+    bottom: 150px;
+    margin-left: 35px;
+    height: 25px;
+    width: 215px;
+    border: 2px solid #BC12FF;
+    border-radius: 5px;
+    background: none;
+    background-color: #bc12ff94;
+    box-shadow: 0px 0px 3px 1px;
+}
+
+.borde{
+    top: 5px;
+    left: -3px;
+    height: 914px;
+    width: 1380px;
+    position: absolute;
+    border: 3px solid  #9d05da;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.bottomBar{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #bc12ff70;
+    color: #fff;
+    height: 20px;
+}
+
+.bottomBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.bottomBar ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.bottomBar li {
+    font-weight: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upperbarPrin h1{
+    text-align: left;
+    position: absolute;
+    margin-left: 10px;
+    font-weight: 15;
+}
+
+.upperbarPrin ul  {
+    position:relative;
+    top: 19px;
+    width:100%;
+    left: -300px;
+    margin-top: 0px;
+    
+}
+
+.upperbarPrin {
+    background-color: #7300a863;
+    color: #fff;
+    width: 100%;
+    height: 56px;
+    padding-bottom: 5px;
+    font-size: x-large;
+    position: relative;
+    text-align: left;
+}
+  
+.upperbarPrin  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.upperbarPrin  nav ul li {
+    display:inline-block;
+    margin-right: 10px;
+}
+  
+.upperbarPrin nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.upperbar h1 {
+    text-align: left;
+    position: absolute;
+    margin-left: 10px;
+    font-weight: 15;
+}
+
+.upperbar ul{
+    top: 19px;
+    left: 300px;
+    margin-top: 0px;
+    margin-left: 200px;
+}
+.upperbar {
+    background-color: #7300a863;
+    color: #fff;
+    width: 100%;
+    height: 55px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: x-large;
+    position: relative;
+}
+
+.upperbar h1{
+    text-align: left;
+    position: absolute;
+    margin-left: 10px;
+}
+  
+.upperbar  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+  
+.upperbar  nav ul li {
+    display: inline;
+    margin-right: 10px;
+    
+}
+  
+.upperbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+#cupon{
+    color: aliceblue;
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
+    padding: 20px;
+    margin-right: 75%;
+    font-weight: 100;
+}
+
+#imagenCupon{
+    position: relative;
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    top: -7px;
+}
+
+#flecha{
+    height: 200px;  
+    left: -10%;
+}
+
+#flechaimg{
+    position: absolute;
+    width: 100%;
+    left: -30px;
+    z-index: 1;
+    top: 215px;
+}
+
+#ruleta{
+    left: 35%;
+    z-index: 100;
+    transition: all 7s;
+}
+
+#cuerpoRuleta{
+    position: relative;
+    width: 100%;
+    top: 250px;
+}
+
+nav.custom-navbar {
+    background-color: #540075 !important; /* Cambia el color de fondo a tu preferencia */
+    color: #fff; /* Cambia el color del texto si es necesario para que sea legible en el nuevo fondo */
+}
+
+.elemento {
+    background: linear-gradient(to right, #4c00ff, #a7018b); /* Cambia los colores a tus preferencias */
+    /* Otros estilos para tu div */
+    height: 94.1vh;
+    width: 100%;
+}
+
+.titulo{
+    font-size: 35px;
+    color: #d900ff;
+}
+
+.navbar-text{
+    font-size: 25px;
+    color: #fff !important;
+}
+
+.numeroCupon{
+    width: 100%;
+}
+
+.turnos{
+    position: absolute;
+    top: 75%;
+}

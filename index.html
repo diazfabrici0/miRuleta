@@ -1,57 +1,58 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-with, initial-scale=1.0">
+        <link rel="stylesheet" href="/vista/estilos/css/estilos.css">
+        <link rel="stylesheet" href="/vista/estilos/css/bootstrap.min.css">
         <title>
             RULETA DE CUPONES
         </title>
-        <link rel="stylesheet" href="/vista/estilos/estilos.css">
-        <video src="imgEstilos/fondo.mp4" autoplay loop></video>
+
     </head>
     <body>
-        <div>
-            <header class="upperbar">
-                <h1>Ruleta Neon</h1>
-              </header>
+        <nav class="navbar custom-navbar bg-light shadow p-2 mb-0 bg-body-tertiary">            <div class="container-fluid">
+                <span class="navbar-text">
+                    Ruleta<span class="titulo">Neon</span>
+                </span>
+            </div>
+        </nav>
+        <div class="elemento">
+            <div id="cupon">
+                <table style="margin: 0 auto;">
+                    <tr>
+                        <td>
+                            <div class="numeroCupon">
+                                <p class="suCupon">Tu descuento: </p>
+                            </div>
+                        </td>
+                        <td>
+                            <img id="imagenCupon" src="/vista/img/cuponImagen.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="turnos">TIROS: 1</p>
+                        </td>
+                    </tr>
+     
+                </table>
+    
+            </div>
+            <div id="flechaimg">
+                <img id="flecha" src="/vista/img/Diseño sin título.png">
+            </div>
+                <div id="cuerpoRuleta">    
+                    <img class="img-fluid" id="ruleta" src="/vista/img/miruleta.png">
+                    <div id="sonido" style="display:none">
+                        <iframe src="/vista/sonido/sonidocsgo.mp3" id="audio"></iframe>
+                    </div>
+                </div>
         </div>
         
-        <div id="cupon">
-
-            <table style="margin: 0 auto;">
-                <tr>
-                    <td>
-                        <p class="suCupon">Tu descuento: </p>
-                    </td>
-                    <td>
-                        <img id="imagenCupon" src="/vista/img/cuponImagen.png">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="turnos">TIROS: 1</p>
-                    </td>
-                </tr>
- 
-            </table>
-
-        </div>
-        <div>
-            <div id="cuerpoRuleta">
-
-                <div class="flechaimg">
-                    <img id="flecha" src="/vista/img/Diseño sin título.png">
-                </div>
-
-                <div>
-                    <img class="img-fluid" id="ruleta" src="/vista/img/miruleta.png">
-                </div> 
-            </div>    
-            <div id="sonido" style="display:none">
-                <iframe src="/vista/sonido/sonidocsgo.mp3" id="audio"></iframe>
-            </div>
-                 
-        </div>
-        <script src="/vista/functions/jquery.min.js"></script>
-        <script src="/vista/functions/funciones.js"></script>
+        <script src="/control/functions/funciones.js"></script>
+        <script src="/control/functions/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </body>
 </html>
